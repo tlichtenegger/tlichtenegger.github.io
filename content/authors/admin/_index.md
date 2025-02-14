@@ -40,34 +40,39 @@ profiles:
     url: https://orcid.org/0000-0001-5577-6058
 
 interests:
-  - Modeling and simulation of complex flows
-  - Data-assisted, physics-based methods
+  - Modeling complex flows
+  - Multiscale and multiphysics systems
+  - Data-assisted simulations
 
 education:
-  - area: PhD Theoretical Physics
+  - area: Habilitation in Fluid Mechanics
     institution: JKU
     date_start: 
-    date_end: 2013
+    date_end: 2021-07-08
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      Thesis: 'Recurrence CFD: Data-assisted, physics-based simulations of multiphase flows'
+  - area: PhD in Theoretical Physics
+    institution: JKU
+    date_start: 
+    date_end: 2013-08-11
+    summary: |
+      Thesis: 'Spin-density fluctuations in liquid <sup>3</sup>He'
 work:
   - position: Scientific Advisor
     company_name: Emmi AI
     company_url: ''
     company_logo: ''
-    date_start: 2024
+    date_start: 2024-08-01
     date_end: ''
   - position: Senior Scientist
     company_name: JKU
     company_url: ''
     company_logo: ''
-    date_start: 2014
+    date_start: 2014-11-01
     date_end: ''
 
+---
 
-## About Me
+## About me
 
 ...
