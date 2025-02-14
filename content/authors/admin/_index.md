@@ -24,7 +24,7 @@ role: Senior Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Johannes Kepler University Linz
+  - name: Johannes Kepler University (JKU) Linz
     url: https://www.jku.at
 
 # Social network links
@@ -45,37 +45,27 @@ interests:
 
 education:
   - area: PhD Theoretical Physics
-    institution: Johannes Kepler University Linz
+    institution: JKU
     date_start: 
-    date_end: 
+    date_end: 2013
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Scientific Advisor
+    company_name: Emmi AI
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Senior Scientist
+    company_name: JKU
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2014
+    date_end: ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
