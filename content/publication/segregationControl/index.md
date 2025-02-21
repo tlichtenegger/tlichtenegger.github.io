@@ -69,4 +69,4 @@ projects:
 slides: example
 ---
 
-Together with our colleagues from the Hamburg University of Technology, we investigated how segregation in polydisperse fluidized beds can be controlled to avoid undesired behavior such as defluidization. Experiments were carried out in Hamburg while simulations were mainly done by my former Postdoc Marco.
+Together with our colleagues from the Hamburg University of Technology, we investigated how segregation in polydisperse fluidized beds can be controlled to avoid undesired behavior such as defluidization. Experiments were carried out by the great team in Hamburg while simulations were mainly done by my former Postdoc Marco.

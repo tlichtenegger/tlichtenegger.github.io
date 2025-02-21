@@ -1,6 +1,5 @@
 ---
-title: "Block-movement-based calibration of a discrete element model for fine,
-cohesive powders"
+title: "Block-movement-based calibration of a discrete element model for fine, cohesive powders"
 authors:
 - Tobias Kronlachner
 - Stefan Pirker

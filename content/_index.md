@@ -44,6 +44,7 @@ sections:
         folders:
           - publication
         featured_only: true
+      count: 100
     design:
       view: article-grid
       columns: 2
