@@ -7,7 +7,7 @@ main:
   - name: About me
     url: /
     weight: 10
-  - name: My research
+  - name: My research topics
     url: /#research
     weight: 11
   - name: Selected publications

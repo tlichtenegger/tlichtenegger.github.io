@@ -27,15 +27,17 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
+  - block: collection
     id: research
     content:
-      title: 'My research'
-      subtitle: ''
-      text: |-
-        ...
+      title: 'My research topics'
+      filters:
+        folders:
+          - research
+        featured_only: true
     design:
-      columns: '1'
+      view: article-grid
+      columns: 1
   - block: collection
     id: papers
     content:
