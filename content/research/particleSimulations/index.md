@@ -26,6 +26,6 @@ My research focuses on the combination of such detailed, physics-based models wi
 
 **References for getting started on the topic of particulate flow modeling:**
 
-<a href="https://doi.org/10.1016/j.ces.2020.115646"> Golshan et al. "Review and implementation of CFD-DEM applied to chemical process systems." Chem. Eng. Sci. 221 (2020): 115646. </a>
+<a href="https://doi.org/10.1016/j.ces.2020.115646"> S. Golshan et al., Review and implementation of CFD-DEM applied to chemical process systems. Chem. Eng. Sci. 221 (2020) 115646. </a>
 
-<a href="https://doi.org/10.1146/annurev-chembioeng-110519-075414"> Kieckhefen et al. "Possibilities and limits of computational fluid dynamics–discrete element method simulations in process engineering: A review of recent advancements and future trends." Annu. Rev. Chem. Biomol. Eng. 11.1 (2020): 397-422.</a>
+<a href="https://doi.org/10.1146/annurev-chembioeng-110519-075414"> P. Kieckhefen et al., Possibilities and limits of computational fluid dynamics–discrete element method simulations in process engineering: A review of recent advancements and future trends. Annu. Rev. Chem. Biomol. Eng. 11.1 (2020) 397-422.</a>
