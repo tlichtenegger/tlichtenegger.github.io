@@ -32,26 +32,25 @@ Such a simplified treatment led to speed ups between two and three orders of mag
 
 **References on recurrence statistics and recurrence CFD:**
 
-<a href="https://doi.org/10.1209/0295-5075/4/9/004"> J.-P. Eckmann, S. O. Kamphorst, and D. Ruelle. Recurrence plots of dynamical systems. Europhys. Lett 4 (9) (1987) 973–977. </a>
+<a href="https://doi.org/10.1016/j.ces.2022.117795"> T. Lichtenegger, S. Abbasi, and S. Pirker, Transport in turbulent, recurrent flows: Time-extrapolation and statistical symmetrization, Chem. Eng. Sci. 259 (2022) 117795. </a>
 
-<a href="https://doi.org/10.1016/j.ces.2016.07.036"> T. Lichtenegger and S. Pirker, Recurrence CFD - a novel approach to simulate multiphase flows with strongly separated time scales, Chem. Eng. Sci. 153 (2016) 394–410. </a>
+<a href="https://doi.org/10.1103/PhysRevFluids.6.044310"> F. Dabbagh et al., Disclosing recurrence properties in fluidized beds, Phys. Rev. Fluids 6 (4) (2021) 044310. </a>
 
-<a href="https://doi.org/10.1016/j.ces.2017.06.022"> T. Lichtenegger et al., A recurrence CFD study of heat transfer in a fluidized bed, Chem. Eng. Sci. 172 (2017) 310–322. </a>
+<a href="https://doi.org/10.1063/5.0025597"> T. Lichtenegger and T. Miethlinger, On the connection between Lagrangian and Eulerian metrics for recurrent particulate flows, Phys. Fluids 32 (11) (2020) 113308. </a>
 
-<a href="https://doi.org/10.1016/j.partic.2018.01.008"> P. Kieckhefen et al., Simulation of spray coating in a spouted bed using recurrence CFD, Particuology 42 (2019) 92–103. </a>
+<a href="https://doi.org/10.1063/5.0010315">  S. Abbasi et al., Recurrence analysis and time extrapolation of a confined turbulent jet using modal decomposition, Phys. Fluids 32 (7) (2020) 075115. </a>
 
-<a href="https://doi.org/10.1016/j.cej.2019.01.161"> T. Lichtenegger et al., Dynamics and long-time behavior of gas–solid flows on recurrent-transient backgrounds, Chem. Eng. J. 364 (2019) 562–577. </a>
+<a href="https://doi.org/10.1016/j.compfluid.2019.104348">  S. Abbasi, S. Pirker, and T. Lichtenegger, Application of recurrence CFD (rCFD) to species transport in turbulent vortex shedding, Comput. Fluids 196 (2020) 104348. </a>
 
 <a href="https://doi.org/10.1016/j.ijmultiphaseflow.2018.05.013">  T. Lichtenegger, Local and global recurrences in dynamic gas-solid flows, Int. J. Multiph. Flow 106 (2018) 125-137.
 </a>
 
-<a href="https://doi.org/10.1016/j.compfluid.2019.104348">  S. Abbasi, S. Pirker, and T. Lichtenegger, Application of recurrence CFD (rCFD) to species transport in turbulent vortex shedding, Comput. Fluids 196 (2020) 104348. </a>
+<a href="https://doi.org/10.1016/j.cej.2019.01.161"> T. Lichtenegger et al., Dynamics and long-time behavior of gas–solid flows on recurrent-transient backgrounds, Chem. Eng. J. 364 (2019) 562–577. </a>
 
-<a href="https://doi.org/10.1063/5.0010315">  S. Abbasi et al., Recurrence analysis and time extrapolation of a confined turbulent jet using modal decomposition, Phys. Fluids 32 (7) (2020) 075115. </a>
+<a href="https://doi.org/10.1016/j.partic.2018.01.008"> P. Kieckhefen et al., Simulation of spray coating in a spouted bed using recurrence CFD, Particuology 42 (2019) 92–103. </a>
 
-<a href="https://doi.org/10.1063/5.0025597"> T. Lichtenegger and T. Miethlinger, On the connection between Lagrangian and Eulerian metrics for recurrent particulate flows, Phys. Fluids 32 (11) (2020) 113308. </a>
+<a href="https://doi.org/10.1016/j.ces.2017.06.022"> T. Lichtenegger et al., A recurrence CFD study of heat transfer in a fluidized bed, Chem. Eng. Sci. 172 (2017) 310–322. </a>
 
-<a href="https://doi.org/10.1103/PhysRevFluids.6.044310"> F. Dabbagh et al., Disclosing recurrence properties in fluidized beds, Phys. Rev. Fluids 6 (4) (2021) 044310. </a>
+<a href="https://doi.org/10.1016/j.ces.2016.07.036"> T. Lichtenegger and S. Pirker, Recurrence CFD - a novel approach to simulate multiphase flows with strongly separated time scales, Chem. Eng. Sci. 153 (2016) 394–410. </a>
 
-<a href="https://doi.org/10.1016/j.ces.2022.117795"> T. Lichtenegger, S. Abbasi, and S. Pirker, Transport in turbulent, recurrent flows: Time-extrapolation and statistical symmetrization, Chem. Eng. Sci. 259 (2022) 117795. </a>
-
+<a href="https://doi.org/10.1209/0295-5075/4/9/004"> J.-P. Eckmann, S. O. Kamphorst, and D. Ruelle. Recurrence plots of dynamical systems. Europhys. Lett 4 (9) (1987) 973–977. </a>
