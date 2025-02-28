@@ -53,5 +53,3 @@ Because this methodology relies on a priori knowledge of the velocity field, it 
 
 <a href="https://doi.org/10.1016/j.ces.2018.04.059"> S. Pirker and T. Lichtenegger, Efficient time-extrapolation of single- and multiphase simulations by transport based recurrence CFD (rCFD), Chem. Eng.
 Sci. 188 (2018) 65–83. </a>
-
-<a href="https://doi.org/">  </a>
