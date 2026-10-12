@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universal Physics Transformers, Real-Time Simulations, Granular Flows in Various Regimes | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/universal-physics-transformers-real-time-simulations-granular-flows-in-various-regimes/</link>
+      <atom:link href="http://localhost:1313/tags/universal-physics-transformers-real-time-simulations-granular-flows-in-various-regimes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Universal Physics Transformers, Real-Time Simulations, Granular Flows in Various Regimes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Universal Physics Transformers, Real-Time Simulations, Granular Flows in Various Regimes</title>
+      <link>http://localhost:1313/tags/universal-physics-transformers-real-time-simulations-granular-flows-in-various-regimes/</link>
+    </image>
+    
+    <item>
+      <title>NeuralDEM - Real-time Simulation of Industrial Particulate Flows</title>
+      <link>http://localhost:1313/publication/neuraldem/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/neuraldem/</guid>
+      <description>&lt;p&gt;In this work, colleagues from NXAI (now &lt;a href=&#34;https://www.emmi.ai/&#34;&gt; Emmi AI&lt;/a&gt;) and I let universal physics transformers learn the dynamics of granular matter both in the dense, pseudo-steady regime of hopper flow and the dilute, dynamic behavior encountered in fluidized bed reactors. The neural networks were trained with a large number of DEM and CFD-DEM trajectories for varying particle properties, boundary conditions and geometries. Long-term predictions for different values of these properties showed (i) simulation speed ups of several orders of magnitude, (ii) very good generalization capabilities to unseen conditions, and (iii) the feasibility to directly use macroscopic material properties (e.g. angle of repose) instead of microscopic DEM parameters.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

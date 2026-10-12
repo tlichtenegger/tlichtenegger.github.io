@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Submerged Double-Jet, Bubble Transport, Multi-Scale Problems, Data-Assisted Simulations, Time-Extrapolation, Recurrence CFD | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/submerged-double-jet-bubble-transport-multi-scale-problems-data-assisted-simulations-time-extrapolation-recurrence-cfd/</link>
+      <atom:link href="http://localhost:1313/tags/submerged-double-jet-bubble-transport-multi-scale-problems-data-assisted-simulations-time-extrapolation-recurrence-cfd/index.xml" rel="self" type="application/rss+xml" />
+    <description>Submerged Double-Jet, Bubble Transport, Multi-Scale Problems, Data-Assisted Simulations, Time-Extrapolation, Recurrence CFD</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Submerged Double-Jet, Bubble Transport, Multi-Scale Problems, Data-Assisted Simulations, Time-Extrapolation, Recurrence CFD</title>
+      <link>http://localhost:1313/tags/submerged-double-jet-bubble-transport-multi-scale-problems-data-assisted-simulations-time-extrapolation-recurrence-cfd/</link>
+    </image>
+    
+    <item>
+      <title>Transport in turbulent, recurrent flows: Time-extrapolation and statistical symmetrization</title>
+      <link>http://localhost:1313/publication/moldflow/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/moldflow/</guid>
+      <description>&lt;p&gt;Together with my former PhD student Sanaz, I studied bubble transport in a strongly turbulent double-jet configuration and a data-assisted strategy to predict the long-term bubble distribution in the domain. Despite of massive fluctuations of the velocity field that hid any larger-scale recurrences of the flow topology, our nearest-neighbor-based approach recurrence CFD produced results in surprisingly good agreement with detailed LES data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

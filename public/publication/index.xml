@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Propagator-moments approximation for recurrence CFD: application to species transport in turbulent flows</title>
+      <link>http://localhost:1313/publication/tundish/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tundish/</guid>
+      <description>&lt;p&gt;In his first paper, my PhD student Hannes employed the &lt;a href=&#34;https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.9.024401&#34;&gt; propagator formalism&lt;/a&gt; to establish a theoretical framework for transport-based recurrence CFD. Not only can we simulate transport processes, e.g., in turbulent flows faster than real time, now we also understand why. In the course of these theoretical developments, Hannes managed to determine a correction term for numerical diffusion in rCFD which makes simulation results also more accurate than those in our previous studies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NeuralDEM - Real-time Simulation of Industrial Particulate Flows</title>
+      <link>http://localhost:1313/publication/neuraldem/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/neuraldem/</guid>
+      <description>&lt;p&gt;In this work, colleagues from NXAI (now &lt;a href=&#34;https://www.emmi.ai/&#34;&gt; Emmi AI&lt;/a&gt;) and I let universal physics transformers learn the dynamics of granular matter both in the dense, pseudo-steady regime of hopper flow and the dilute, dynamic behavior encountered in fluidized bed reactors. The neural networks were trained with a large number of DEM and CFD-DEM trajectories for varying particle properties, boundary conditions and geometries. Long-term predictions for different values of these properties showed (i) simulation speed ups of several orders of magnitude, (ii) very good generalization capabilities to unseen conditions, and (iii) the feasibility to directly use macroscopic material properties (e.g. angle of repose) instead of microscopic DEM parameters.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fast long-term simulations of hot, reacting, moving particle beds with a melting zone</title>
+      <link>http://localhost:1313/publication/pseudosteadybf/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pseudosteadybf/</guid>
+      <description>&lt;p&gt;Blast furnaces, still the dominant type of steel-making reactor, are difficult to simulate because of the vastly different time scales involved. While stiff grains and fast gas flow dictate small time steps, large-scale material transport and chemical conversion take place over the course of hours. To bridge this massive gap, we employed a simple time-extrapolation technique built upon detailed CFD-DEM data from which we obtained the granular velocity field. To cover long durations, we replaced solid, interacting particles with non-interacting counterparts that followed the prescribed streamlines while exchanging heat and mass with the surrounding gas flow. This allowed us to use much larger time steps and describe the evolution of a full-scale blast furnace towards its thermo-chemical equilibrium at comparatively little numerical costs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Control of segregation by non-uniform aeration in a fluidized bed spray granulator</title>
+      <link>http://localhost:1313/publication/segregationcontrol/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/segregationcontrol/</guid>
+      <description>&lt;p&gt;Together with our colleagues from the Hamburg University of Technology, we investigated how segregation in polydisperse fluidized beds can be controlled to avoid undesired behavior such as defluidization. Experiments were carried out by the great team in Hamburg while simulations were mainly done by my former Postdoc Marco.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Block-movement-based calibration of a discrete element model for fine, cohesive powders</title>
+      <link>http://localhost:1313/publication/rotatingdrum2/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rotatingdrum2/</guid>
+      <description>&lt;p&gt;In this work, my former PhD student Tobias developed an optimization framework to obtain DEM parameters for highly cohesive powders from rotating drum experiments and subsequent block analysis. These parameters allowed for massively coarse-grained simulations in very good agreement with experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transport in turbulent, recurrent flows: Time-extrapolation and statistical symmetrization</title>
+      <link>http://localhost:1313/publication/moldflow/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/moldflow/</guid>
+      <description>&lt;p&gt;Together with my former PhD student Sanaz, I studied bubble transport in a strongly turbulent double-jet configuration and a data-assisted strategy to predict the long-term bubble distribution in the domain. Despite of massive fluctuations of the velocity field that hid any larger-scale recurrences of the flow topology, our nearest-neighbor-based approach recurrence CFD produced results in surprisingly good agreement with detailed LES data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A block-movement-based analysis for cohesive powders in a rotating drum experiment</title>
+      <link>http://localhost:1313/publication/rotatingdrum1/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rotatingdrum1/</guid>
+      <description>&lt;p&gt;Very fine metal powders are very challenging to characterize because many standard measurements fail for highly cohesive materials. To overcome this limiation, my former PhD student Tobias built a rotating drum experiment with automated video analysis and material block detection. The resulting statistics on the size, velocity, etc. of the blocks can be used to characterize such powders and detect even slight changes in their behavior, e.g., because of humidity uptake.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

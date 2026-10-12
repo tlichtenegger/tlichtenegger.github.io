@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moving Bed Reactors, Multiphysics Flows, Time-Extrapolation | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/moving-bed-reactors-multiphysics-flows-time-extrapolation/</link>
+      <atom:link href="http://localhost:1313/tags/moving-bed-reactors-multiphysics-flows-time-extrapolation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Moving Bed Reactors, Multiphysics Flows, Time-Extrapolation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Moving Bed Reactors, Multiphysics Flows, Time-Extrapolation</title>
+      <link>http://localhost:1313/tags/moving-bed-reactors-multiphysics-flows-time-extrapolation/</link>
+    </image>
+    
+    <item>
+      <title>Fast long-term simulations of hot, reacting, moving particle beds with a melting zone</title>
+      <link>http://localhost:1313/publication/pseudosteadybf/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pseudosteadybf/</guid>
+      <description>&lt;p&gt;Blast furnaces, still the dominant type of steel-making reactor, are difficult to simulate because of the vastly different time scales involved. While stiff grains and fast gas flow dictate small time steps, large-scale material transport and chemical conversion take place over the course of hours. To bridge this massive gap, we employed a simple time-extrapolation technique built upon detailed CFD-DEM data from which we obtained the granular velocity field. To cover long durations, we replaced solid, interacting particles with non-interacting counterparts that followed the prescribed streamlines while exchanging heat and mass with the surrounding gas flow. This allowed us to use much larger time steps and describe the evolution of a full-scale blast furnace towards its thermo-chemical equilibrium at comparatively little numerical costs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

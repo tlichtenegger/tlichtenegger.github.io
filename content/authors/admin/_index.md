@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior Scientist
+role: CD Lab Head
 #Scientific Adivsor at Emmi AI
 
 # Organizations/Affiliations to display in Biography blox
@@ -77,6 +77,7 @@ work:
 
 ## About me
 
-I completed my PhD in Theoretical Physics at the Johannes Kepler University (JKU) Linz, Austria, followed by a postdoctoral stay at the State University of New York at Buffalo, United States, on the topic of quantum liquids such as superfluid helium at absolute zero. Since 2014, I have been working on the multiscale problem of complex multiphase and multiphysics flows as a Senior Scientist at the <a href="https://www.jku.at/institut-fuer-stroemungslehre-und-waermeuebertragung/pfm/"> Department of Particulate Flow Modelling</a> at JKU, where I earned my Habilitation (venia docendi) in 2021. In our group, I lead the team for particle-based simulations with a focus on data-driven methods and enjoy supervising PhD students in this area.
+I completed my PhD in Theoretical Physics at the Johannes Kepler University (JKU) Linz, Austria, followed by a postdoctoral stay at the State University of New York at Buffalo, United States, on the topic of quantum liquids such as superfluid helium at absolute zero. Since 2014, I have been working on the multiscale problem of complex multiphase and multiphysics flows as a Senior Scientist at the <a href="https://www.jku.at/institut-fuer-stroemungslehre-und-waermeuebertragung/pfm/"> Department of Particulate Flow Modelling</a> at JKU, where I lead the projects on particle-based simulations with a focus on data-driven methods. Based on these activities, I earned my Habilitation (venia docendi) in 2021. 
 
-During my PhD studies, I learned the importance of first identifying the relevant physics of a problem, then modeling it rigorously, and finally solving it numerically in an efficient fashion. This principle also guides my current research activities, where I integrate physics-based models with data-driven approximations. Compared to classical simulation methods, this kind of approach enables calculations that are several orders of magnitude faster so that real-time simulations of complex flows are within reach. Together with the fantastic team of <a href="https://www.emmi.ai/"> Emmi AI</a>, I am working on deep learning surrogates for digital process twins.
+Since 2026, I am the head of the <a href="https://www.cdg.ac.at/en/news-and-dates/news/article/a-few-minutes-of-calculation-instead-of-waiting-several-weeks-873"> CD Lab for Data-Assisted Simulations of Complex Flows</a>. My fantastic team develops data-assisted methods that are fast enough for the analysis and optimization of complex flows
+with an emphasis on energy-intensive, metallurgical processes. Ultimately, it will be possible to simulate such systems several orders of magnitude faster than with current methods using hardware accessible to most researchers. The ability of neural operators to include additional data such as sparse sensor signals will enable real-time simulations that can be leveraged for digital process twins, aiding in the green transformation of industry.

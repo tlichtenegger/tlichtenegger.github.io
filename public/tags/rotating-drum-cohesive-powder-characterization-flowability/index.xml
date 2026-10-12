@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rotating Drum, Cohesive Powder, Characterization, Flowability | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/rotating-drum-cohesive-powder-characterization-flowability/</link>
+      <atom:link href="http://localhost:1313/tags/rotating-drum-cohesive-powder-characterization-flowability/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rotating Drum, Cohesive Powder, Characterization, Flowability</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Rotating Drum, Cohesive Powder, Characterization, Flowability</title>
+      <link>http://localhost:1313/tags/rotating-drum-cohesive-powder-characterization-flowability/</link>
+    </image>
+    
+    <item>
+      <title>A block-movement-based analysis for cohesive powders in a rotating drum experiment</title>
+      <link>http://localhost:1313/publication/rotatingdrum1/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rotatingdrum1/</guid>
+      <description>&lt;p&gt;Very fine metal powders are very challenging to characterize because many standard measurements fail for highly cohesive materials. To overcome this limiation, my former PhD student Tobias built a rotating drum experiment with automated video analysis and material block detection. The resulting statistics on the size, velocity, etc. of the blocks can be used to characterize such powders and detect even slight changes in their behavior, e.g., because of humidity uptake.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

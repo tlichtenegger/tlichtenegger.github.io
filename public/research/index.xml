@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My research topics | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/research/</link>
+      <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>My research topics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>My research topics</title>
+      <link>http://localhost:1313/research/</link>
+    </image>
+    
+    <item>
+      <title>Particulate flow modeling</title>
+      <link>http://localhost:1313/research/particlesimulations/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/particlesimulations/</guid>
+      <description>&lt;p&gt;Granular materials are composed of discrete macroscopic particles with diameters ranging from micrometers (e.g., fine powders, dust) to several centimeters (e.g., rocks in riverbeds, ore grains in steelmaking plants). Computational particle simulations have become essential tools for understanding and predicting the complex, emergent behavior displayed by such systems over a range of regimes including dense, pseudo-steady (e.g., moving beds) and dilute, dynamic (e.g., fluidized beds) flows.&lt;/p&gt;
+&lt;p&gt;The scientific interest in granular materials stems from their inherently multiscale nature. A long sequence of short-term interactions (involving the exchange of mass, momentum and energy) of many small particles with each other and with the surrounding fluid phase gives rise to macroscopic bulk flow properties. Bridging this spatio-temporal multiscale problem is a challenging, active area for fundamental research.&lt;/p&gt;
+&lt;p&gt;From an application-oriented perspective, granular materials are ubiquitous in various industrial processes (e.g., agriculture, mining, pharmaceuticals, and steelmaking), yet their plant-level behavior remains poorly understood. Inefficiencies or unexpected events can lead to costly production losses. Particle simulations provide a means to better understand and optimize existing or develop novel processes. Especially for energy-intense industry branches such as steelmaking, reliable computer models will play a crucial role to drive innovation in the course of decarbonization.&lt;/p&gt;
+&lt;p&gt;Among a variety of available modeling approaches for particulate flows, my research mainly involves Euler-Lagrange methods such as CFD-DEM simulations. The fluid dynamics is governed by the Navier-Stokes equations, particles interact via simplified contact forces, and appropriate interphase coupling terms account for the interaction between particles and fluid. The computational representation of discrete particles allows for a detailed description of, e.g., different modes of heat transfer and heterogeneous chemical reactions. However, large numerical costs limit the scope of this kind of method to seconds or minutes of real process time, which is far below relevant time scales.
+My research focuses on the combination of such detailed, physics-based models with different data-driven approaches to accelerate simulations of large-scale, long-term flows towards real-time capability and beyond.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References for getting started on the topic of particulate flow modeling:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2020.115646&#34;&gt; S. Golshan et al., Review and implementation of CFD-DEM applied to chemical process systems. Chem. Eng. Sci. 221 (2020) 115646. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1146/annurev-chembioeng-110519-075414&#34;&gt; P. Kieckhefen et al., Possibilities and limits of computational fluid dynamics–discrete element method simulations in process engineering: A review of recent advancements and future trends. Annu. Rev. Chem. Biomol. Eng. 11.1 (2020) 397-422.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recurrence-based time extrapolation</title>
+      <link>http://localhost:1313/research/recurrencecfd/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/recurrencecfd/</guid>
+      <description>&lt;p&gt;Many driven, dissipative systems exhibit recurrent behavior, i.e., the same states appear again and again albeit in a completely irregular fashion. Examples include particulate flows like fluidized beds and rotating drums and other types of multiphase flow such as bubble columns. If slow, transient, long-term processes take place in such systems, one may decouple them from the fast, recurrent dynamics and use the following, simple approximation for the latter.&lt;/p&gt;
+&lt;p&gt;First a time series of flow fields is recorded that contains recurrences of the volume fraction $\alpha_{\textrm{g,p}}(\boldsymbol{r},t)$
+ and velocity fields $\boldsymbol{u}_{\textrm{g,p}}(\boldsymbol{r},t)$
+. In many cases, a few seconds are enough to characterize the ongoing dynamics.
+Then the series is extrapolated with large time steps employing recurrence statistics. To predict how a state will evolve, the most similar one in the recorded time series is identified and its evolution is used. Upon iteration, one can create sequences $\alpha_{\textrm{g,p}}^{\textrm{(rec)}}(\boldsymbol{r},t)$
+, $\boldsymbol{u}_{\textrm{g,p}}^{\textrm{(rec)}}(\boldsymbol{r},t)$
+ of almost arbitrary length to approximate the actual long-term dynamics. Such a series has the same statistical properties in terms of spatially resolved temporal averages and variances as the underlying, short time series. This provides a criterion on their required length.&lt;/p&gt;
+&lt;p&gt;Finally, one can carry out very fast simulations of transport processes on the time-extrapolated sequences. For the case of passive transport in the gas phase with an interaction term inline math $S_{\textrm{p-g}}$
+ with a secondary, particulate one, one only has to solve&lt;/p&gt;
+&lt;p&gt;
+$$
+\frac{\partial \alpha_{\textrm{g}}^{\textrm{(rec)}} c}{\partial t} + \nabla\cdot \alpha_{\textrm{g}}^{\textrm{(rec)}}\boldsymbol{u}_{\textrm{g}}^{\textrm{(rec)}}c = \nabla\cdot \alpha_{\textrm{g}}^{\textrm{(rec)}} D^{\textrm{(rec)}}\nabla c + S_{\textrm{p-g}}
+$$
+
+
+without the need to compute the velocity and volume fraction fields. Similarly, the particle dynamics can be approximated based on their time-extrapolated velocity field $\boldsymbol{u}^{\textrm{(rec)}}_{\textrm{p}}$
+.
+Such a simplified treatment led to speed ups between two and three orders of magnitude compared to the full calculations for transport of species and heat.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References on recurrence statistics and recurrence CFD:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2022.117795&#34;&gt; T. Lichtenegger, S. Abbasi, and S. Pirker, Transport in turbulent, recurrent flows: Time-extrapolation and statistical symmetrization, Chem. Eng. Sci. 259 (2022) 117795. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1103/PhysRevFluids.6.044310&#34;&gt; F. Dabbagh et al., Disclosing recurrence properties in fluidized beds, Phys. Rev. Fluids 6 (4) (2021) 044310. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1063/5.0025597&#34;&gt; T. Lichtenegger and T. Miethlinger, On the connection between Lagrangian and Eulerian metrics for recurrent particulate flows, Phys. Fluids 32 (11) (2020) 113308. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1063/5.0010315&#34;&gt;  S. Abbasi et al., Recurrence analysis and time extrapolation of a confined turbulent jet using modal decomposition, Phys. Fluids 32 (7) (2020) 075115. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.compfluid.2019.104348&#34;&gt;  S. Abbasi, S. Pirker, and T. Lichtenegger, Application of recurrence CFD (rCFD) to species transport in turbulent vortex shedding, Comput. Fluids 196 (2020) 104348. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ijmultiphaseflow.2018.05.013&#34;&gt;  T. Lichtenegger, Local and global recurrences in dynamic gas-solid flows, Int. J. Multiph. Flow 106 (2018) 125-137.
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.cej.2019.01.161&#34;&gt; T. Lichtenegger et al., Dynamics and long-time behavior of gas–solid flows on recurrent-transient backgrounds, Chem. Eng. J. 364 (2019) 562–577. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.partic.2018.01.008&#34;&gt; P. Kieckhefen et al., Simulation of spray coating in a spouted bed using recurrence CFD, Particuology 42 (2019) 92–103. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2017.06.022&#34;&gt; T. Lichtenegger et al., A recurrence CFD study of heat transfer in a fluidized bed, Chem. Eng. Sci. 172 (2017) 310–322. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2016.07.036&#34;&gt; T. Lichtenegger and S. Pirker, Recurrence CFD - a novel approach to simulate multiphase flows with strongly separated time scales, Chem. Eng. Sci. 153 (2016) 394–410. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1209/0295-5075/4/9/004&#34;&gt; J.-P. Eckmann, S. O. Kamphorst, and D. Ruelle. Recurrence plots of dynamical systems. Europhys. Lett 4 (9) (1987) 973–977. &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Propagator formulation for transport processes</title>
+      <link>http://localhost:1313/research/propagators/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/propagators/</guid>
+      <description>&lt;p&gt;For linear transport equations&lt;/p&gt;
+&lt;p&gt;
+$$
+\frac{\partial c}{\partial t} + \nabla\cdot c\boldsymbol{u} = \nabla\cdot D\nabla c
+$$
+
+
+of some concentration $c(\boldsymbol{r}, t)$
+ (e.g., species or energy) subject to advection with a velocity field $\boldsymbol{u}(\boldsymbol{r}, t)$
+ and diffusion with strength $D(\boldsymbol{r}, t)$
+, the future state after an arbitrarily long time step $\Delta t_{\textrm{prop}}$
+  needs to depend linearly on the field at $t$
+, i.e.,
+
+$$
+c(\boldsymbol{r}, t + \Delta t_{\textrm{prop}} ) = \int d^3r&#39;  K_{\textrm{cc}} (\boldsymbol{r}, \boldsymbol{r}&#39; ; \Delta t_{\textrm{prop}} , t) c(\boldsymbol{r}&#39; , t).
+$$
+
+
+$K_{\textrm{cc}}$
+ is called the propagator of the transport equation and is itself a solution of this equation with initial condition $K_{\textrm{cc}}(\boldsymbol{r}, \boldsymbol{r}&#39; ; 0 , t) = \delta(\boldsymbol{r} - \boldsymbol{r}&#39;)$
+ for every $\boldsymbol{r}&#39;$
+. For a mesh with $N$
+ cells, one would have to solve $N$
+ PDEs to compute the propagator and store a field with $N^2$
+ values, which is computationally far too expensive. However, a much more efficient approximation is given by a shifted Gaussian
+
+$$
+K_{\textrm{cc}} (\boldsymbol{r}, \boldsymbol{r}&#39; ; \Delta t_{\textrm{prop}} , t) \propto \textrm{e}^{-1/2\big(\boldsymbol{r}&#39; - \boldsymbol{r}^{\textrm{(or)}}\big)\boldsymbol{\Sigma}^{-1}\big(\boldsymbol{r}&#39; - \boldsymbol{r}^{\textrm{(or)}}\big)},
+$$
+
+
+which can be calculated with little effort and does not require much memory.&lt;/p&gt;
+&lt;p&gt;For every point $\boldsymbol{r}$
+ in the domain, this operator advects the concentration value from its origin $\boldsymbol{r}^{\textrm{(or)}} (\boldsymbol{r}; \Delta t_{\textrm{prop}} , t)$
+ to $\boldsymbol{r}$
+ and diffuse with strength $\boldsymbol{\Sigma}(\boldsymbol{r}; \Delta t_{\textrm{prop}}, t)$
+ into an increasingly smeared out peak. Upon discretization, this amounts to cell-to-cell shifts with subsequent diffusion. Because very large time steps are permissible and the calculations are very simple, speed ups of several orders of magnitude compared to detailed CFD simulations are possible and brings us close to or even beyond real-time simulations.&lt;/p&gt;
+&lt;p&gt;Because this methodology relies on a priori knowledge of the velocity field, it is particularly suitable for recurrent flows (e.g., fluidized beds, bubble columns) or pseudosteady problems (e.g., moving beds).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References on propagator transport simulations (transport-based recurrence CFD and pseudosteady CFD-DEM):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1103/PhysRevFluids.9.024401&#34;&gt; T. Lichtenegger. Data-assisted, physics-informed propagators for recurrent flows. Phys. Rev. Fluids 9.2 (2024) 024401. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2023.119402&#34;&gt; T. Lichtenegger and S. Pirker, Fast long-term simulations of hot, reacting, moving particle beds with a melting zone, Chem. Eng. Sci. 283 (2024) 119402. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.envsoft.2021.105172&#34;&gt; Y. Du et al. Efficient and high-resolution simulation of pollutant dispersion in complex urban environments by island-based recurrence CFD. Environ. Model. Softw. 145 (2021) 105172. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34; https://doi.org/10.1002/srin.202000214&#34;&gt; S. Pirker et al. Steel alloy homogenization during Rheinsahl–Heraeus vacuum treatment: conventional computational fluid dynamics, recurrence computational fluid dynamics, and plant observations. Steel Res. Int. 91.12 (2020) 2000214. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2018.09.043&#34;&gt; S. Pirker and T. Lichtenegger, Process control of through-flow reactor operation by real-time recurrence CFD (rCFD) simulations – proof of concept, Chem. Eng. Sci. 198 (2019) 241–252. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.ces.2018.04.059&#34;&gt; S. Pirker and T. Lichtenegger, Efficient time-extrapolation of single- and multiphase simulations by transport based recurrence CFD (rCFD), Chem. Eng.
+Sci. 188 (2018) 65–83. &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep learning complex particle dynamics</title>
+      <link>http://localhost:1313/research/deeplearning/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/deeplearning/</guid>
+      <description>&lt;p&gt;Over the last few years, deep NNs, particularly neural operators, have been developed for the solution of PDEs. Given sufficient data, they can be trained to learn a mapping between function spaces, e.g., between the velocity field  $\boldsymbol{u}(\boldsymbol{r}, t)$ 
+ at time $t = t_1$
+ and that at a later time $t_2 &gt; t_1$
+. Upon iteration, time series can be generated with large steps. Various architectures were suggested differing in flexibility, ability to incorporate symbolic EOMs as side constraints, and scalability to large problem sizes. Especially for the case
+for engineering-relevant flows, it is important that such a network can “digest” input data of significant size, e.g., the velocity field of a large-scale, turbulent flow or the particle positions and velocities in a granular system. In this regard, universal physics transfomers (UPTs) are of specific interest:
+(i) They can map different grids and/or different particle numbers onto a unified latent representation employing an encoder-decoder approach. (ii) UPTs show great flexibility concerning input data and can deal with non-uniform distributions. (iii) Using attention techniques, they can capture long-range correlations between input elements.&lt;/p&gt;
+&lt;p&gt;Altogether, UPTs show a high degree of flexibility, scalability, and stability, which makes them suitable for the description of complex multiscale flows. Real-time capability together with the possibility to include online sensor data to infer current flow states makes UPTs promising candidates for digital process twins.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References on UPTs:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.48550/arXiv.2411.09678&#34;&gt; B. Alkin et al. NeuralDEM-Real-time Simulation of Industrial Particulate Flows. arXiv preprint arXiv:2411.09678 (2024) &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.48550/arXiv.2402.12365&#34;&gt; B. Alkin et al. Universal physics transformers. arXiv e-prints (2024): arXiv-2402. &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

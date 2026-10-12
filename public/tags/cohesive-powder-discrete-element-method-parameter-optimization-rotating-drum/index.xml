@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cohesive Powder, Discrete Element Method, Parameter Optimization, Rotating Drum | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/cohesive-powder-discrete-element-method-parameter-optimization-rotating-drum/</link>
+      <atom:link href="http://localhost:1313/tags/cohesive-powder-discrete-element-method-parameter-optimization-rotating-drum/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cohesive Powder, Discrete Element Method, Parameter Optimization, Rotating Drum</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Cohesive Powder, Discrete Element Method, Parameter Optimization, Rotating Drum</title>
+      <link>http://localhost:1313/tags/cohesive-powder-discrete-element-method-parameter-optimization-rotating-drum/</link>
+    </image>
+    
+    <item>
+      <title>Block-movement-based calibration of a discrete element model for fine, cohesive powders</title>
+      <link>http://localhost:1313/publication/rotatingdrum2/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rotatingdrum2/</guid>
+      <description>&lt;p&gt;In this work, my former PhD student Tobias developed an optimization framework to obtain DEM parameters for highly cohesive powders from rotating drum experiments and subsequent block analysis. These parameters allowed for massively coarse-grained simulations in very good agreement with experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

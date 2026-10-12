@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Extrapolation, Recurrence CFD, Propagator Formulation, Turbulent Species Transport | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/time-extrapolation-recurrence-cfd-propagator-formulation-turbulent-species-transport/</link>
+      <atom:link href="http://localhost:1313/tags/time-extrapolation-recurrence-cfd-propagator-formulation-turbulent-species-transport/index.xml" rel="self" type="application/rss+xml" />
+    <description>Time Extrapolation, Recurrence CFD, Propagator Formulation, Turbulent Species Transport</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Time Extrapolation, Recurrence CFD, Propagator Formulation, Turbulent Species Transport</title>
+      <link>http://localhost:1313/tags/time-extrapolation-recurrence-cfd-propagator-formulation-turbulent-species-transport/</link>
+    </image>
+    
+    <item>
+      <title>Propagator-moments approximation for recurrence CFD: application to species transport in turbulent flows</title>
+      <link>http://localhost:1313/publication/tundish/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tundish/</guid>
+      <description>&lt;p&gt;In his first paper, my PhD student Hannes employed the &lt;a href=&#34;https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.9.024401&#34;&gt; propagator formalism&lt;/a&gt; to establish a theoretical framework for transport-based recurrence CFD. Not only can we simulate transport processes, e.g., in turbulent flows faster than real time, now we also understand why. In the course of these theoretical developments, Hannes managed to determine a correction term for numerical diffusion in rCFD which makes simulation results also more accurate than those in our previous studies.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

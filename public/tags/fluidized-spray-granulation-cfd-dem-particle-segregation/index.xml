@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fluidized Spray Granulation, CFD-DEM, Particle Segregation | Thomas Lichtenegger</title>
+    <link>http://localhost:1313/tags/fluidized-spray-granulation-cfd-dem-particle-segregation/</link>
+      <atom:link href="http://localhost:1313/tags/fluidized-spray-granulation-cfd-dem-particle-segregation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fluidized Spray Granulation, CFD-DEM, Particle Segregation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_9e0bd8efe7355528.png</url>
+      <title>Fluidized Spray Granulation, CFD-DEM, Particle Segregation</title>
+      <link>http://localhost:1313/tags/fluidized-spray-granulation-cfd-dem-particle-segregation/</link>
+    </image>
+    
+    <item>
+      <title>Control of segregation by non-uniform aeration in a fluidized bed spray granulator</title>
+      <link>http://localhost:1313/publication/segregationcontrol/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/segregationcontrol/</guid>
+      <description>&lt;p&gt;Together with our colleagues from the Hamburg University of Technology, we investigated how segregation in polydisperse fluidized beds can be controlled to avoid undesired behavior such as defluidization. Experiments were carried out by the great team in Hamburg while simulations were mainly done by my former Postdoc Marco.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
